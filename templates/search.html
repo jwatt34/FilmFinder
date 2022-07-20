@@ -1,0 +1,23 @@
+{% extends 'bootstrap/base.html' %}
+{% import 'bootstrap/wtf.html' as wtf %}
+{% block head %}
+{{ super() }}
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato&family=Ubuntu&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+{% endblock %}
+
+{% block title %}
+TMDB Project
+{% endblock %}
+
+{% block content %}
+<div class="titlediv">
+  <h1 class="titleClass">FilmFinder</h1>
+</div>
+<div class="searchdiv">
+  {{ wtf.quick_form(form, novalidate=True) }}
+</div>
+{% endblock %}

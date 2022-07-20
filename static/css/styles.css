@@ -1,0 +1,35 @@
+body{
+  /* background: rgb(62,220,252);
+  background: radial-gradient(circle, rgba(62,220,252,0.2137897395286239) 28%, rgba(0,203,255,0.348243521041229) 85%); */
+    margin: 0;
+    padding: 0;
+  /* background: rgb(110,200,218);
+background: radial-gradient(circle, rgba(110,200,218,0.2670110280440301) 28%, rgba(82,220,255,0.33703903924851186) 85%); */
+    background: rgb(110,200,218);
+    background: radial-gradient(circle, rgba(110,200,218,0.2670110280440301) 48%, rgba(82,220,255,0.33703903924851186) 70%);
+    font-size: 1.5rem;
+}
+
+h1{
+    font-family: "Ubuntu";
+    margin: 0;
+
+}
+
+.titlediv{
+    padding: 5%;
+}
+
+.titleClass{
+    font-size: 5rem;
+}
+
+.searchdiv{
+    text-align: center;
+    padding: 4% 30%;
+}
+
+.resultsdiv{
+    text-align: left;
+    padding-left: 18%
+}
